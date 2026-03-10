@@ -1,76 +1,80 @@
-# 📈 华尔街分析师的投资入门手册
+**English** | [中文](./README.zh-CN.md)
 
-> 写给投资小白的可操作指南——从零开始，系统掌握股票与期权
+# 📈 Wall Street Analyst's Beginner Investment Guide
 
----
-
-## ⚠️ 免责声明
-
-本手册仅供教育目的，不构成投资建议。投资有风险，入市须谨慎。
+> A practical handbook for investment beginners — from zero to systematically mastering stocks and options
 
 ---
 
-## 🗺️ 学习路线图
+## ⚠️ Disclaimer
+
+This guide is for educational purposes only and does not constitute investment advice. All investments carry risk. Please invest responsibly.
+
+---
+
+## 🗺️ Learning Roadmap
 
 ```
-第一阶段（第1-2周）：打地基
-    └── 01-市场基础 → 02-股票入门
+Phase 1 (Week 1–2): Build the Foundation
+    └── 01-Market Basics → 02-Stock Fundamentals
 
-第二阶段（第3-4周）：学分析
-    └── 04-技术分析 → 05-基本面分析
+Phase 2 (Week 3–4): Learn Analysis
+    └── 04-Technical Analysis → 05-Fundamental Analysis
 
-第三阶段（第5-6周）：懂风险
-    └── 06-风险管理 → 07-工具平台
+Phase 3 (Week 5–6): Understand Risk
+    └── 06-Risk Management → 07-Tools & Platforms
 
-第四阶段（第7-8周）：学期权
-    └── 03-期权入门 → 08-实战策略
+Phase 4 (Week 7–8): Master Options
+    └── 03-Options Intro → 08-Trading Strategies
 
-持续进行：09-学习资源（每天30分钟）
+Ongoing: 09-Learning Resources (30 min/day)
 
-进阶阶段：稳健长期资产配置
-    └── 10-永久投资组合（低风险、无需择时）
+Advanced: Steady long-term asset allocation
+    └── 10-Permanent Portfolio (low-risk, no market timing)
 ```
 
 ---
 
-## 📂 目录结构
+## 📂 Table of Contents
 
-| # | 模块 | 内容 | 适合阶段 |
-|---|------|------|----------|
-| 01 | [市场基础](./01-市场基础/README.md) | 金融市场概览、交易所、指数 | 第一周 |
-| 02 | [股票入门](./02-股票入门/README.md) | 股票本质、如何买卖、读懂报价 | 第一周 |
-| 03 | [期权入门](./03-期权入门/README.md) | Call/Put、行权价、到期日、希腊字母 | 第四周 |
-| 04 | [技术分析](./04-技术分析/README.md) | K线图、均线、RSI、MACD | 第二周 |
-| 05 | [基本面分析](./05-基本面分析/README.md) | 财报解读、估值方法、行业分析 | 第二周 |
-| 06 | [风险管理](./06-风险管理/README.md) | 仓位管理、止损、分散投资 | 第三周 |
-| 07 | [工具平台](./07-工具平台/README.md) | 券商选择、筛选工具、数据来源 | 第三周 |
-| 08 | [实战策略](./08-实战策略/README.md) | 常用交易策略、期权组合 | 第四周+ |
-| 09 | [学习资源](./09-学习资源/README.md) | 书单、课程、播客、社区 | 持续 |
-| 10 | [永久投资组合](./10-永久投资组合/README.md) | 低风险长期配置完全操作指南 | 进阶 |
+| # | Module | Topics | Suggested Week |
+|---|--------|--------|----------------|
+| 01 | [Market Basics](./01-市场基础/README.md) | Financial markets, exchanges, indices | Week 1 |
+| 02 | [Stock Fundamentals](./02-股票入门/README.md) | What stocks are, how to buy/sell, reading quotes | Week 1 |
+| 03 | [Options Intro](./03-期权入门/README.md) | Call/Put, strike price, expiration, Greeks | Week 4 |
+| 04 | [Technical Analysis](./04-技术分析/README.md) | Candlestick charts, moving averages, RSI, MACD | Week 2 |
+| 05 | [Fundamental Analysis](./05-基本面分析/README.md) | Earnings reports, valuation methods, sector analysis | Week 2 |
+| 06 | [Risk Management](./06-风险管理/README.md) | Position sizing, stop-loss, diversification | Week 3 |
+| 07 | [Tools & Platforms](./07-工具平台/README.md) | Broker selection, screeners, data sources | Week 3 |
+| 08 | [Trading Strategies](./08-实战策略/README.md) | Common strategies, options combinations | Week 4+ |
+| 09 | [Learning Resources](./09-学习资源/README.md) | Book list, courses, podcasts, communities | Ongoing |
+| 10 | [Permanent Portfolio](./10-永久投资组合/README.md) | Complete guide to low-risk long-term allocation | Advanced |
 
----
-
-## 🚀 快速开始（今天就能做的3件事）
-
-1. **开户模拟账户** → [Webull模拟盘](https://www.webull.com/paper-trade) 或 [Thinkorswim模拟盘](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/paper-trading.html)
-2. **读懂第一支股票** → 去 [Yahoo Finance](https://finance.yahoo.com) 搜索 `AAPL`，看懂每个数字
-3. **学第一个概念** → 从 [01-市场基础](./01-市场基础/README.md) 开始
+> **Note:** Module content is currently written in Chinese. An English translation is in progress.
 
 ---
 
-## 💡 华尔街分析师的忠告
+## 🚀 Quick Start (3 Things You Can Do Today)
 
-> "你不需要做对所有决定，你只需要在做对的时候赚得足够多，做错的时候亏得足够少。"
+1. **Open a paper trading account** → [Webull Paper Trade](https://www.webull.com/paper-trade) or [Thinkorswim Paper Trading](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/paper-trading.html)
+2. **Read your first stock** → Go to [Yahoo Finance](https://finance.yahoo.com), search `AAPL`, understand every number
+3. **Learn your first concept** → Start with [01-Market Basics](./01-市场基础/README.md)
+
+---
+
+## 💡 A Wall Street Analyst's Advice
+
+> "You don't need to be right on every decision — you just need to profit enough when you're right and lose little enough when you're wrong."
 >
-> — 乔治·索罗斯
+> — George Soros
 
-**新手最常犯的5个错误：**
-1. 追涨杀跌（FOMO）
-2. 没有止损就重仓
-3. 听消息炒股
-4. 频繁交易（手续费吃掉收益）
-5. 把全部积蓄投入市场
+**5 Most Common Beginner Mistakes:**
+1. Chasing rallies and panic selling (FOMO)
+2. Taking large positions without a stop-loss
+3. Trading on tips and rumors
+4. Over-trading (commissions erode profits)
+5. Investing money you cannot afford to lose
 
 ---
 
-*最后更新：2026年3月 | 持续维护中*
+*Last updated: March 2026 | Actively maintained*
