@@ -1,132 +1,129 @@
-# 09 | 学习资源大全
+**English** | [中文](./README.zh-CN.md)
 
-> 投资教育是唯一回报率最确定的投资
+# 09 | Learning Resources
 
----
-
-## 📚 必读书单
-
-### 基础必读（按顺序）
-
-| 书名 | 作者 | 难度 | 核心价值 | 链接 |
-|------|------|------|---------|------|
-| 《股票作手回忆录》 | 爱德文·勒菲弗 | ⭐⭐ | 交易心理经典 | [Amazon](https://www.amazon.com/Reminiscences-Stock-Operator-Edwin-Lef%C3%A8vre/dp/0471770884) |
-| 《聪明的投资者》 | 本杰明·格雷厄姆 | ⭐⭐⭐ | 价值投资圣经 | [Amazon CN](https://www.amazon.cn/dp/B00M2DLVLS) |
-| 《彼得·林奇的成功投资》 | 彼得·林奇 | ⭐⭐ | 普通人的选股方法 | [Amazon](https://www.amazon.com/One-Up-Wall-Street-Already/dp/0743200403) |
-| 《随机漫步的傻瓜》 | 纳西姆·塔勒布 | ⭐⭐⭐ | 理解运气与风险 | [Amazon](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219) |
-| 《股市真规则》 | 帕特·多尔西 | ⭐⭐⭐ | 护城河分析 | [Amazon](https://www.amazon.com/Five-Rules-Successful-Stock-Investing/dp/0471686174) |
-
-### 进阶推荐
-
-| 书名 | 作者 | 难度 | 核心价值 | 链接 |
-|------|------|------|---------|------|
-| 《期权：波动率与定价》 | Natenberg | ⭐⭐⭐⭐ | 期权定价最权威 | [Amazon](https://www.amazon.com/Option-Volatility-Pricing-Strategies-Techniques/dp/155738486X) |
-| 《日本蜡烛图技术》 | 史蒂夫·尼森 | ⭐⭐⭐ | K线技术奠基作 | [Amazon](https://www.amazon.com/Japanese-Candlestick-Charting-Techniques-Second/dp/0735201811) |
-| 《趋势跟踪》 | 迈克尔·科维尔 | ⭐⭐⭐ | 量化趋势策略 | [Amazon](https://www.amazon.com/Trend-Following-Performance-Markets-Financial/dp/013702018X) |
-| 《穷查理宝典》 | 查理·芒格 | ⭐⭐⭐ | 多维度思维 | [Amazon CN](https://www.amazon.cn/dp/B01MYQOFMB) |
-| 《市场奇才》 | 杰克·施瓦格 | ⭐⭐⭐ | 顶级交易员访谈 | [Amazon](https://www.amazon.com/Market-Wizards-Updated-Interviews-Traders/dp/1118273052) |
+> Investing in your education is the only investment with a guaranteed return.
 
 ---
 
-## 🎓 在线课程
+## 📚 Essential Reading List
 
-### 免费课程
+### Foundation (Read in Order)
 
-| 课程 | 平台 | 内容 | 链接 |
-|------|------|------|------|
-| Options Education | OCC | 期权基础 | [optionseducation.org](https://www.optionseducation.org/programsoptions/getting_started) |
-| Options Institute | CBOE | 期权全系列 | [cboe.com/education](https://www.cboe.com/education/) |
-| Investing Basics | Investopedia Academy | 投资入门 | [investopedia.com/academy](https://academy.investopedia.com) |
-| Stock Market Basics | Khan Academy | 基础知识 | [khanacademy.org](https://www.khanacademy.org/economics-finance-domain/core-finance) |
-| Tastytrade Learn | Tastytrade | 期权实战 | [tastytrade.com/learn](https://tastytrade.com/learn/) |
+| Book | Author | Difficulty | Core Value | Link |
+|------|--------|-----------|-----------|------|
+| Reminiscences of a Stock Operator | Edwin Lefèvre | ⭐⭐ | Trading psychology classic | [Amazon](https://www.amazon.com/Reminiscences-Stock-Operator-Edwin-Lef%C3%A8vre/dp/0471770884) |
+| The Intelligent Investor | Benjamin Graham | ⭐⭐⭐ | The bible of value investing | [Amazon](https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661) |
+| One Up On Wall Street | Peter Lynch | ⭐⭐ | Stock picking for everyday investors | [Amazon](https://www.amazon.com/One-Up-Wall-Street-Already/dp/0743200403) |
+| Fooled by Randomness | Nassim Taleb | ⭐⭐⭐ | Understanding luck and risk | [Amazon](https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219) |
+| The Five Rules for Successful Stock Investing | Pat Dorsey | ⭐⭐⭐ | Economic moat analysis | [Amazon](https://www.amazon.com/Five-Rules-Successful-Stock-Investing/dp/0471686174) |
 
-### 付费课程（值得投资）
+### Advanced Reading
 
-| 课程 | 价格 | 内容 | 链接 |
-|------|------|------|------|
-| Investopedia Academy | $99-199 | 系统投资课程 | [investopedia.com/academy](https://academy.investopedia.com) |
-| CFA Level 1 自学 | $700+ | 最权威金融认证 | [cfainstitute.org](https://www.cfainstitute.org) |
-| Options Trading | Udemy | 期权策略 | [udemy.com](https://www.udemy.com/courses/search/?q=options+trading) |
-
----
-
-## 🎧 播客（通勤必听）
-
-| 播客 | 语言 | 特点 | 链接 |
-|------|------|------|------|
-| We Study Billionaires | 英文 | 巴菲特、芒格等大师 | [theinvestorspodcast.com](https://www.theinvestorspodcast.com) |
-| Motley Fool Money | 英文 | 每周市场分析 | [fool.com/podcasts](https://www.fool.com/podcasts/motley-fool-money/) |
-| Tastytrade Network | 英文 | 每日期权交易 | [tastytrade.com](https://tastytrade.com) |
-| 港美股投资播客 | 中文 | 港美股分析 | 各播客平台搜索 |
-| 雪球·财经有料 | 中文 | A股投资讨论 | [xueqiu.com](https://xueqiu.com) |
+| Book | Author | Difficulty | Core Value | Link |
+|------|--------|-----------|-----------|------|
+| Option Volatility and Pricing | Natenberg | ⭐⭐⭐⭐ | Most authoritative options pricing book | [Amazon](https://www.amazon.com/Option-Volatility-Pricing-Strategies-Techniques/dp/155738486X) |
+| Japanese Candlestick Charting Techniques | Steve Nison | ⭐⭐⭐ | Foundational candlestick book | [Amazon](https://www.amazon.com/Japanese-Candlestick-Charting-Techniques-Second/dp/0735201811) |
+| Trend Following | Michael Covel | ⭐⭐⭐ | Quantitative trend strategies | [Amazon](https://www.amazon.com/Trend-Following-Performance-Markets-Financial/dp/013702018X) |
+| Poor Charlie's Almanack | Charlie Munger | ⭐⭐⭐ | Multi-disciplinary thinking | [Amazon](https://www.amazon.com/Poor-Charlies-Almanack-Essential-Charles/dp/1953953239) |
+| Market Wizards | Jack Schwager | ⭐⭐⭐ | Interviews with top traders | [Amazon](https://www.amazon.com/Market-Wizards-Updated-Interviews-Traders/dp/1118273052) |
 
 ---
 
-## 📺 YouTube频道
+## 🎓 Online Courses
 
-| 频道 | 语言 | 内容 | 链接 |
-|------|------|------|------|
-| CNBC | 英文 | 实时财经新闻 | [youtube.com/cnbc](https://www.youtube.com/cnbc) |
-| Bloomberg Markets | 英文 | 专业市场分析 | [youtube.com/bloomberg](https://www.youtube.com/bloomberg) |
-| Tasty Live | 英文 | 期权实战 | [youtube.com/tastytrade](https://www.youtube.com/tastytrade) |
-| The Plain Bagel | 英文 | 投资概念解释 | [youtube.com/@ThePlainBagel](https://www.youtube.com/@ThePlainBagel) |
-| Patrick Boyle | 英文 | 对冲基金视角 | [youtube.com/@PBoyle](https://www.youtube.com/@PBoyle) |
-| 小Lin说 | 中文 | 金融科普 | YouTube搜索"小Lin说" |
+### Free Courses
 
----
+| Course | Platform | Content | Link |
+|--------|---------|---------|------|
+| Options Education | OCC | Options basics | [optionseducation.org](https://www.optionseducation.org/programsoptions/getting_started) |
+| Options Institute | CBOE | Full options series | [cboe.com/education](https://www.cboe.com/education/) |
+| Investing Basics | Investopedia Academy | Investing fundamentals | [investopedia.com/academy](https://academy.investopedia.com) |
+| Stock Market Basics | Khan Academy | Core finance | [khanacademy.org](https://www.khanacademy.org/economics-finance-domain/core-finance) |
+| Tastytrade Learn | Tastytrade | Practical options trading | [tastytrade.com/learn](https://tastytrade.com/learn/) |
 
-## 💻 网站/博客
+### Paid Courses (Worth the Investment)
 
-| 网站 | 内容 | 链接 |
-|------|------|------|
-| Investopedia | 最全投资词典+教程 | [investopedia.com](https://www.investopedia.com) |
-| StockCharts ChartSchool | 技术分析学校 | [school.stockcharts.com](https://school.stockcharts.com) |
-| Options Playbook | 期权策略大全 | [optionsplaybook.com](https://www.optionsplaybook.com) |
-| A Wealth of Common Sense | 理性投资博客 | [awealthofcommonsense.com](https://awealthofcommonsense.com) |
-| 雪球 | 中文投资社区 | [xueqiu.com](https://xueqiu.com) |
-| 格隆汇 | 港美股研究 | [gelonghui.com](https://www.gelonghui.com) |
+| Course | Price | Content | Link |
+|--------|-------|---------|------|
+| Investopedia Academy | $99–199 | Systematic investing courses | [investopedia.com/academy](https://academy.investopedia.com) |
+| CFA Level 1 Self-Study | $700+ | Most authoritative finance certification | [cfainstitute.org](https://www.cfainstitute.org) |
+| Options Trading | Udemy | Options strategies | [udemy.com](https://www.udemy.com/courses/search/?q=options+trading) |
 
 ---
 
-## 🏦 官方监管机构（遇到问题必看）
+## 🎧 Podcasts (Great for Your Commute)
 
-| 机构 | 职能 | 网站 |
-|------|------|------|
-| SEC | 美国证监会 | [sec.gov](https://www.sec.gov) |
-| FINRA | 美国金融监管局 | [finra.org](https://www.finra.org) |
-| CFTC | 期货交易委员会 | [cftc.gov](https://www.cftc.gov) |
-| 中国证监会 | A股监管 | [csrc.gov.cn](http://www.csrc.gov.cn) |
-
----
-
-## 📊 30天学习计划
-
-| 周次 | 重点 | 每日任务（30分钟）|
-|------|------|-----------------|
-| 第1周 | 市场基础+股票 | 读01、02章节，注册Yahoo Finance |
-| 第2周 | 技术+基本面 | 读04、05章节，在TradingView分析5支股票 |
-| 第3周 | 风险+工具 | 读06、07章节，开模拟账户，买入第一支股票 |
-| 第4周 | 期权+策略 | 读03、08章节，模拟买入一个Call期权 |
-| 持续 | 深化+实战 | 每天看一篇Investopedia文章，每周复盘 |
+| Podcast | Language | Focus | Link |
+|---------|---------|-------|------|
+| We Study Billionaires | English | Buffett, Munger, and other masters | [theinvestorspodcast.com](https://www.theinvestorspodcast.com) |
+| Motley Fool Money | English | Weekly market analysis | [fool.com/podcasts](https://www.fool.com/podcasts/motley-fool-money/) |
+| Tastytrade Network | English | Daily options trading | [tastytrade.com](https://tastytrade.com) |
+| The Plain Bagel | English | Clear investing concept explanations | Search on YouTube |
 
 ---
 
-## ✅ 终极检验清单
+## 📺 YouTube Channels
 
-**基础（完成后才能动真钱）：**
-- [ ] 能解释股票、债券、ETF的区别
-- [ ] 能读懂一份基本的损益表
-- [ ] 在模拟账户赚钱超过3个月
-- [ ] 设计了完整的交易系统
-
-**进阶（6个月后）：**
-- [ ] 理解所有期权Greeks
-- [ ] 执行过完整的Covered Call策略
-- [ ] 建立了个人投资组合追踪系统
-- [ ] 读完了至少3本推荐书单中的书
+| Channel | Language | Content | Link |
+|---------|---------|---------|------|
+| CNBC | English | Real-time financial news | [youtube.com/cnbc](https://www.youtube.com/cnbc) |
+| Bloomberg Markets | English | Professional market analysis | [youtube.com/bloomberg](https://www.youtube.com/bloomberg) |
+| Tasty Live | English | Practical options trading | [youtube.com/tastytrade](https://www.youtube.com/tastytrade) |
+| The Plain Bagel | English | Investing concepts explained | [youtube.com/@ThePlainBagel](https://www.youtube.com/@ThePlainBagel) |
+| Patrick Boyle | English | Hedge fund perspective | [youtube.com/@PBoyle](https://www.youtube.com/@PBoyle) |
 
 ---
 
-*"投资最好的时间是10年前，其次是现在。"*
+## 💻 Websites & Blogs
 
-**返回首页：** [← 主目录](../README.md)
+| Site | Content | Link |
+|------|---------|------|
+| Investopedia | Most comprehensive investing dictionary + tutorials | [investopedia.com](https://www.investopedia.com) |
+| StockCharts ChartSchool | Technical analysis school | [school.stockcharts.com](https://school.stockcharts.com) |
+| Options Playbook | Complete options strategy reference | [optionsplaybook.com](https://www.optionsplaybook.com) |
+| A Wealth of Common Sense | Rational investing blog | [awealthofcommonsense.com](https://awealthofcommonsense.com) |
+
+---
+
+## 🏦 Official Regulators (Check These If You Have Issues)
+
+| Agency | Role | Website |
+|--------|------|---------|
+| SEC | U.S. Securities and Exchange Commission | [sec.gov](https://www.sec.gov) |
+| FINRA | U.S. Financial Industry Regulatory Authority | [finra.org](https://www.finra.org) |
+| CFTC | Commodity Futures Trading Commission | [cftc.gov](https://www.cftc.gov) |
+
+---
+
+## 📊 30-Day Learning Plan
+
+| Week | Focus | Daily Task (30 minutes) |
+|------|-------|------------------------|
+| Week 1 | Market basics + stocks | Read modules 01 & 02; register on Yahoo Finance |
+| Week 2 | Technical + fundamental | Read modules 04 & 05; analyze 5 stocks on TradingView |
+| Week 3 | Risk + tools | Read modules 06 & 07; open paper account; make first trade |
+| Week 4 | Options + strategies | Read modules 03 & 08; simulate buying a Call option |
+| Ongoing | Deepen + apply | Read one Investopedia article daily; weekly trade review |
+
+---
+
+## ✅ Ultimate Checklist
+
+**Foundation (complete before trading real money):**
+- [ ] Can explain the difference between stocks, bonds, and ETFs
+- [ ] Can read a basic income statement
+- [ ] Have been profitable in a paper account for 3+ months
+- [ ] Have designed a complete trading system
+
+**Advanced (after 6 months):**
+- [ ] Understand all options Greeks
+- [ ] Have executed a complete Covered Call strategy
+- [ ] Have built a personal portfolio tracking system
+- [ ] Have read at least 3 books from the recommended list
+
+---
+
+*"The best time to invest was 10 years ago. The second best time is now."*
+
+**Back to Home:** [← Main Directory](../README.md)

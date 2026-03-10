@@ -1,136 +1,136 @@
-# 02 | 股票入门
+**English** | [中文](./README.zh-CN.md)
 
-> 股票不是赌注，是公司的所有权证明
+# 02 | Stock Fundamentals
+
+> Stocks are not bets — they are proof of ownership in a company.
 
 ---
 
-## 2.1 股票的本质
+## 2.1 The Nature of Stocks
 
-买1股苹果（AAPL）= 拥有苹果公司约 **0.000000015%** 的所有权
+Buying 1 share of Apple (AAPL) = owning approximately **0.000000015%** of Apple Inc.
 
-股东权利：
-- **分红（Dividend）**：公司利润的分配
-- **投票权**：参与公司重大决策
-- **资本增值**：股价上涨带来的收益
+Shareholder rights:
+- **Dividends**: A share of company profits
+- **Voting rights**: Participate in major corporate decisions
+- **Capital appreciation**: Gains from rising stock price
 
-**参考阅读：**
+**Reference Reading:**
 - [Investopedia: What Is a Stock?](https://www.investopedia.com/terms/s/stock.asp)
-- [SEC: Stocks（美国证监会官方教育）](https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks)
+- [SEC: Stocks (Official Education)](https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks)
 
 ---
 
-## 2.2 如何读懂股票报价
+## 2.2 How to Read a Stock Quote
 
-以 **AAPL (Apple Inc.)** 为例：
+Using **AAPL (Apple Inc.)** as an example:
 
 ```
 AAPL  $185.20  ▲ +2.15 (+1.17%)
 ─────────────────────────────────
-开盘价 (Open):      $183.50
-最高价 (High):      $186.00
-最低价 (Low):       $182.90
-成交量 (Volume):    58.3M
-市值 (Market Cap):  $2.87T
-市盈率 (P/E Ratio): 28.5
-每股收益 (EPS):     $6.50
-52周高/低:          $198.23 / $164.08
+Open:           $183.50
+High:           $186.00
+Low:            $182.90
+Volume:         58.3M
+Market Cap:     $2.87T
+P/E Ratio:      28.5
+EPS:            $6.50
+52-Week Hi/Lo:  $198.23 / $164.08
 ```
 
-**实时查询：**
+**Live Quotes:**
 - [Yahoo Finance](https://finance.yahoo.com/quote/AAPL)
 - [Google Finance](https://www.google.com/finance/quote/AAPL:NASDAQ)
 - [TradingView](https://www.tradingview.com/symbols/NASDAQ-AAPL/)
 
 ---
 
-## 2.3 股票分类
+## 2.3 Stock Categories
 
-### 按市值分类
-| 类型 | 市值 | 特点 | 例子 |
-|------|------|------|------|
-| 大盘股（Large Cap） | >100亿美元 | 稳定、低风险 | 苹果、微软 |
-| 中盘股（Mid Cap） | 20-100亿 | 平衡型 | 各类中型企业 |
-| 小盘股（Small Cap） | <20亿 | 高风险高回报 | 新兴公司 |
+### By Market Capitalization
+| Type | Market Cap | Characteristics | Examples |
+|------|-----------|-----------------|----------|
+| Large Cap | >$10B | Stable, lower risk | Apple, Microsoft |
+| Mid Cap | $2B–$10B | Balanced | Mid-size companies |
+| Small Cap | <$2B | Higher risk, higher potential | Emerging companies |
 
-### 按股票性质分类
-| 类型 | 特点 | 适合谁 |
-|------|------|--------|
-| 成长股（Growth） | 高增速、不分红 | 激进投资者 |
-| 价值股（Value） | 低估值、稳定分红 | 保守投资者 |
-| 蓝筹股（Blue Chip） | 大公司、稳定 | 长期持有者 |
-| 周期股（Cyclical） | 随经济周期波动 | 有宏观判断能力者 |
+### By Stock Type
+| Type | Characteristics | Best For |
+|------|----------------|---------|
+| Growth Stocks | High growth rate, no dividends | Aggressive investors |
+| Value Stocks | Low valuation, steady dividends | Conservative investors |
+| Blue-Chip Stocks | Large, stable companies | Long-term holders |
+| Cyclical Stocks | Fluctuate with economic cycles | Investors with macro insight |
 
 ---
 
-## 2.4 关键财务指标速查
+## 2.4 Key Financial Metrics Quick Reference
 
-| 指标 | 英文 | 含义 | 参考值 |
-|------|------|------|--------|
-| 市盈率 | P/E Ratio | 股价/每股收益 | 科技股通常20-40x |
-| 市净率 | P/B Ratio | 股价/每股净资产 | <1可能被低估 |
-| 市销率 | P/S Ratio | 市值/年销售额 | 越低越便宜 |
-| 股息率 | Dividend Yield | 年分红/股价 | >3%算不错 |
-| ROE | Return on Equity | 净利润/股东权益 | >15%为优秀 |
-| 负债率 | Debt/Equity | 总负债/总权益 | 越低越安全 |
+| Metric | Meaning | Reference |
+|--------|---------|-----------|
+| P/E Ratio | Price / Earnings per share | Tech stocks typically 20–40x |
+| P/B Ratio | Price / Book value per share | <1 may indicate undervaluation |
+| P/S Ratio | Market cap / Annual sales | Lower = cheaper |
+| Dividend Yield | Annual dividend / Stock price | >3% is solid |
+| ROE | Net income / Shareholders' equity | >15% is excellent |
+| Debt/Equity | Total debt / Total equity | Lower = safer |
 
-**深度学习：**
+**Deep Dive:**
 - [Investopedia P/E Ratio](https://www.investopedia.com/terms/p/price-earningsratio.asp)
-- [读懂财报（中文）](https://www.bilibili.com/video/BV1et411a7WX)
 
 ---
 
-## 2.5 如何买入第一支股票（步骤）
+## 2.5 How to Buy Your First Stock (Step-by-Step)
 
 ```
-第一步：开券商账户
+Step 1: Open a brokerage account
     ↓
-第二步：存入资金（建议新手先用模拟账户）
+Step 2: Fund your account (beginners: start with a paper trading account)
     ↓
-第三步：搜索股票代码（Ticker Symbol）
+Step 3: Search for the stock's ticker symbol
     ↓
-第四步：选择订单类型
-    ├── 市价单（Market Order）：立即以当前价成交
-    └── 限价单（Limit Order）：设定价格，等待成交【推荐新手】
+Step 4: Choose your order type
+    ├── Market Order: Execute immediately at current price
+    └── Limit Order: Set your price, wait for fill [RECOMMENDED for beginners]
     ↓
-第五步：确认下单
+Step 5: Confirm and submit
     ↓
-第六步：设置止损（Stop Loss）【必做！】
+Step 6: Set a Stop Loss [REQUIRED!]
 ```
 
 ---
 
-## 2.6 订单类型详解
+## 2.6 Order Types Explained
 
-| 订单类型 | 说明 | 适用场景 |
-|----------|------|----------|
-| 市价单 Market Order | 立即成交，价格不保证 | 流动性好的大盘股 |
-| 限价单 Limit Order | 指定价格，不成交不买 | 日常交易【推荐】 |
-| 止损单 Stop Loss | 跌到某价自动卖出 | 风险控制【必用】 |
-| 止盈单 Take Profit | 涨到某价自动卖出 | 锁定利润 |
-| 追踪止损 Trailing Stop | 动态跟踪最高价 | 趋势交易 |
+| Order Type | Description | Best Use Case |
+|------------|-------------|---------------|
+| Market Order | Executes immediately; price not guaranteed | Highly liquid large-cap stocks |
+| Limit Order | Only executes at your specified price | Everyday trading [RECOMMENDED] |
+| Stop Loss | Auto-sells when price drops to your level | Risk control [ESSENTIAL] |
+| Take Profit | Auto-sells when price reaches your target | Locking in gains |
+| Trailing Stop | Dynamically tracks peak price | Trend trading |
 
-**视频教学：**
-- [How to Place a Stock Order（英文）](https://www.youtube.com/watch?v=8ueSSFHbp8U)
-
----
-
-## 2.7 股票筛选器（Stock Screener）
-
-找股票的工具：
-
-| 工具 | 链接 | 特点 |
-|------|------|------|
-| Finviz | [finviz.com/screener](https://finviz.com/screener.ashx) | 最强大的免费筛选器 |
-| Yahoo Screener | [finance.yahoo.com/screener](https://finance.yahoo.com/screener) | 简单易用 |
-| TradingView Screener | [tradingview.com/screener](https://www.tradingview.com/screener/) | 图表结合 |
-| 东方财富选股 | [eastmoney.com](https://data.eastmoney.com/xuangu/) | A股专用 |
+**Video Tutorial:**
+- [How to Place a Stock Order](https://www.youtube.com/watch?v=8ueSSFHbp8U)
 
 ---
 
-## ✅ 本章检验
+## 2.7 Stock Screeners
 
-- [ ] 能解释P/E ratio的含义
-- [ ] 知道限价单和市价单的区别
-- [ ] 在模拟账户买入了第一支股票
+Tools for finding stocks:
 
-**下一章：** [04-技术分析 →](../04-技术分析/README.md)
+| Tool | Link | Highlights |
+|------|------|-----------|
+| Finviz | [finviz.com/screener](https://finviz.com/screener.ashx) | Most powerful free screener |
+| Yahoo Screener | [finance.yahoo.com/screener](https://finance.yahoo.com/screener) | Simple, beginner-friendly |
+| TradingView Screener | [tradingview.com/screener](https://www.tradingview.com/screener/) | Integrated with charting |
+
+---
+
+## ✅ Chapter Checklist
+
+- [ ] Can explain what P/E ratio means
+- [ ] Know the difference between a market order and a limit order
+- [ ] Have bought your first stock in a paper trading account
+
+**Next Chapter:** [04 - Technical Analysis →](../04-技术分析/README.md)

@@ -1,110 +1,111 @@
-# 01 | 金融市场基础
+**English** | [中文](./README.zh-CN.md)
 
-> 在买第一支股票之前，先搞懂你在和谁做生意
+# 01 | Financial Market Basics
 
----
-
-## 1.1 什么是股票市场？
-
-股票市场是**公司和投资者之间的撮合平台**：
-- 公司通过上市（IPO）向公众募资
-- 投资者购买股票，成为公司股东，分享公司成长
-
-**核心逻辑：** 你买股票 = 你成为公司的部分所有者
-
-### 推荐阅读
-- [Investopedia: How Stock Markets Work（英文）](https://www.investopedia.com/articles/investing/082614/how-stock-market-works.asp)
-- [中文科普：股票市场是什么？](https://www.zhihu.com/question/20557427)
+> Before buying your first stock, understand who you're doing business with.
 
 ---
 
-## 1.2 主要交易所
+## 1.1 What Is the Stock Market?
 
-| 交易所 | 简称 | 特点 | 代表公司 |
-|--------|------|------|----------|
-| 纽约证券交易所 | NYSE | 最古老、最权威 | 可口可乐、摩根大通 |
-| 纳斯达克 | NASDAQ | 科技股为主 | 苹果、谷歌、特斯拉 |
-| 上交所 | SSE | 中国A股主板 | 中石油、工商银行 |
-| 深交所 | SZSE | 中国创业板/中小板 | 比亚迪、宁德时代 |
-| 港交所 | HKEX | 连接中西方 | 腾讯、阿里巴巴 |
+The stock market is a **platform that connects companies with investors**:
+- Companies raise capital from the public through IPOs (Initial Public Offerings)
+- Investors buy shares, become partial owners, and share in the company's growth
 
-**官方网站：**
+**Core concept:** Buying stock = becoming a part-owner of the company
+
+### Recommended Reading
+- [Investopedia: How Stock Markets Work](https://www.investopedia.com/articles/investing/082614/how-stock-market-works.asp)
+- [Khan Academy: Stocks and Bonds](https://www.khanacademy.org/economics-finance-domain/core-finance/stock-and-bonds)
+
+---
+
+## 1.2 Major Exchanges
+
+| Exchange | Abbreviation | Characteristics | Notable Companies |
+|----------|-------------|-----------------|-------------------|
+| New York Stock Exchange | NYSE | Oldest, most prestigious | Coca-Cola, JPMorgan |
+| NASDAQ | NASDAQ | Tech-focused | Apple, Google, Tesla |
+| Shanghai Stock Exchange | SSE | China A-share main board | PetroChina, ICBC |
+| Shenzhen Stock Exchange | SZSE | China's growth/SME board | BYD, CATL |
+| Hong Kong Stock Exchange | HKEX | Bridge between East and West | Tencent, Alibaba |
+
+**Official Websites:**
 - [NYSE](https://www.nyse.com)
 - [NASDAQ](https://www.nasdaq.com)
-- [上交所](http://www.sse.com.cn)
-- [深交所](http://www.szse.cn)
+- [SSE](http://www.sse.com.cn)
+- [SZSE](http://www.szse.cn)
 
 ---
 
-## 1.3 重要市场指数
+## 1.3 Key Market Indices
 
-指数 = 一篮子股票的价格加权平均，反映市场整体表现
+An index = a weighted average price of a basket of stocks, reflecting overall market performance
 
-| 指数 | 包含 | 意义 |
-|------|------|------|
-| 道琼斯（DJIA） | 30支蓝筹股 | 美国最老牌指数 |
-| 标普500（S&P 500） | 500支大型股 | 美股最重要基准 |
-| 纳斯达克综合 | 3000+科技股 | 科技行业风向标 |
-| 沪深300 | A股300支 | 中国股市基准 |
-| 恒生指数（HSI） | 港股权重股 | 香港市场基准 |
+| Index | Composition | Significance |
+|-------|-------------|--------------|
+| Dow Jones (DJIA) | 30 blue-chip stocks | Oldest U.S. market index |
+| S&P 500 | 500 large-cap stocks | Most important U.S. benchmark |
+| NASDAQ Composite | 3,000+ tech stocks | Technology sector barometer |
+| CSI 300 | 300 A-share stocks | Chinese stock market benchmark |
+| Hang Seng Index (HSI) | HK-weighted stocks | Hong Kong market benchmark |
 
-**查看实时指数：**
+**Live Index Quotes:**
 - [Bloomberg Markets](https://www.bloomberg.com/markets)
 - [MarketWatch](https://www.marketwatch.com)
-- [东方财富指数](https://quote.eastmoney.com/center/hszs.html)
 
 ---
 
-## 1.4 交易时间
+## 1.4 Trading Hours
 
-**美股：**
-- 正常交易：东部时间 9:30 AM - 4:00 PM（北京时间 22:30 - 04:00）
-- 盘前交易：4:00 AM - 9:30 AM
-- 盘后交易：4:00 PM - 8:00 PM
+**U.S. Markets:**
+- Regular trading: 9:30 AM – 4:00 PM ET (2:30 PM – 9:00 PM UTC)
+- Pre-market: 4:00 AM – 9:30 AM ET
+- After-hours: 4:00 PM – 8:00 PM ET
 
-**A股：**
-- 上午：9:30 - 11:30
-- 下午：13:00 - 15:00
-- 集合竞价：9:15 - 9:25（早）/ 14:57 - 15:00（晚）
+**China A-shares:**
+- Morning session: 9:30 – 11:30
+- Afternoon session: 13:00 – 15:00
+- Call auction: 9:15 – 9:25 (open) / 14:57 – 15:00 (close)
 
 ---
 
-## 1.5 市场参与者
+## 1.5 Market Participants
 
 ```
-散户投资者（你）
-    ↕
-券商 / 经纪商（Broker）
-    ↕
-做市商（Market Maker）
-    ↕
-交易所（Exchange）
+Retail Investors (you)
+        ↕
+Brokers / Brokerage Firms
+        ↕
+Market Makers
+        ↕
+Exchanges
 ```
 
-**机构投资者（你的"对手"）：**
-- 对冲基金（Hedge Fund）：高风险高回报
-- 共同基金（Mutual Fund）：被动管理为主
-- 养老金（Pension Fund）：长期稳健
-- 投资银行（Investment Bank）：高盛、摩根士丹利
+**Institutional Investors (your "counterparties"):**
+- Hedge Funds: High risk, high return
+- Mutual Funds: Primarily passive management
+- Pension Funds: Long-term, steady approach
+- Investment Banks: Goldman Sachs, Morgan Stanley
 
 ---
 
-## 1.6 牛市与熊市
+## 1.6 Bull Markets and Bear Markets
 
-| 术语 | 定义 | 信号 |
-|------|------|------|
-| 牛市（Bull Market） | 市场上涨20%+ | 经济繁荣、低失业率 |
-| 熊市（Bear Market） | 市场下跌20%+ | 经济衰退、高通胀 |
-| 修正（Correction） | 下跌10%-20% | 正常波动 |
-| 崩盘（Crash） | 短期暴跌30%+ | 恐慌性抛售 |
+| Term | Definition | Signals |
+|------|------------|---------|
+| Bull Market | Market up 20%+ | Economic growth, low unemployment |
+| Bear Market | Market down 20%+ | Recession, high inflation |
+| Correction | Down 10%–20% | Normal fluctuation |
+| Crash | Sharp drop 30%+ in short period | Panic selling |
 
 ---
 
-## ✅ 本章检验
+## ✅ Chapter Checklist
 
-完成以下练习再进入下一章：
-- [ ] 能说出S&P 500今天的点位
-- [ ] 知道美股开盘对应北京几点
-- [ ] 能区分NYSE和NASDAQ的区别
+Complete these exercises before moving on:
+- [ ] Can state today's S&P 500 level
+- [ ] Know what time U.S. markets open in your local timezone
+- [ ] Can explain the difference between NYSE and NASDAQ
 
-**下一章：** [02-股票入门 →](../02-股票入门/README.md)
+**Next Chapter:** [02 - Stock Fundamentals →](../02-股票入门/README.md)

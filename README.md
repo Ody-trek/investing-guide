@@ -50,8 +50,6 @@ Advanced: Steady long-term asset allocation
 | 09 | [Learning Resources](./09-学习资源/README.md) | Book list, courses, podcasts, communities | Ongoing |
 | 10 | [Permanent Portfolio](./10-永久投资组合/README.md) | Complete guide to low-risk long-term allocation | Advanced |
 
-> **Note:** Module content is currently written in Chinese. An English translation is in progress.
-
 ---
 
 ## 🚀 Quick Start (3 Things You Can Do Today)

@@ -1,170 +1,172 @@
-# 06 | 风险管理
+**English** | [中文](./README.zh-CN.md)
 
-> 投资最重要的规则：第一，不要亏钱；第二，不要忘记第一条。
-> ——沃伦·巴菲特
+# 06 | Risk Management
 
----
-
-## 6.1 为什么风险管理比选股更重要？
-
-**数学告诉你：**
-```
-亏损20% → 需要涨25%才能回本
-亏损50% → 需要涨100%才能回本
-亏损80% → 需要涨400%才能回本
-```
-
-**结论：保住本金是第一优先级**
+> The most important rule in investing: Rule #1 — don't lose money. Rule #2 — don't forget Rule #1.
+> — Warren Buffett
 
 ---
 
-## 6.2 仓位管理（Position Sizing）
+## 6.1 Why Risk Management Matters More Than Stock Picking
 
-### 1% 规则（新手必用）
-> 单笔交易最大风险 = 总资金的1%-2%
-
+**The math tells you:**
 ```
-账户资金：$10,000
-单笔最大风险：$100（1%）
-买入价：$50，止损价：$45（-10%）
-最大仓位：$100 ÷ ($50-$45) = 20股 = $1,000（10%仓位）
+Lose 20% → Need a 25% gain just to break even
+Lose 50% → Need a 100% gain just to break even
+Lose 80% → Need a 400% gain just to break even
 ```
 
-### 仓位分配参考
-| 类型 | 单支股票最大仓位 | 说明 |
-|------|----------------|------|
-| 保守型 | 5% | 20支股票 |
-| 平衡型 | 10% | 10支股票 |
-| 激进型 | 20% | 5支股票 |
-| 期权 | 2-5% | 高风险，更小仓位 |
+**Conclusion: Protecting your capital is the #1 priority**
 
-**计算工具：**
+---
+
+## 6.2 Position Sizing
+
+### The 1% Rule (Essential for Beginners)
+> Maximum risk per trade = 1%–2% of total capital
+
+```
+Account capital: $10,000
+Max risk per trade: $100 (1%)
+Entry price: $50, Stop loss: $45 (−10%)
+Max position: $100 ÷ ($50 − $45) = 20 shares = $1,000 (10% of account)
+```
+
+### Position Size Reference
+| Profile | Max per Stock | Diversification |
+|---------|--------------|-----------------|
+| Conservative | 5% | 20 stocks |
+| Balanced | 10% | 10 stocks |
+| Aggressive | 20% | 5 stocks |
+| Options | 2–5% | Higher risk, smaller size |
+
+**Calculator:**
 - [Position Size Calculator](https://www.myfxbook.com/tools/position-size-calculator)
 
 ---
 
-## 6.3 止损设置（Stop Loss）
+## 6.3 Stop Loss
 
-止损是你的"保险单"——**必须在买入时就设好**
+Your stop loss is your "insurance policy" — **set it before you enter, not after**
 
-### 止损方法
-| 方法 | 说明 | 适用 |
-|------|------|------|
-| 固定百分比 | 跌5%-10%就止损 | 简单直接 |
-| 技术止损 | 跌破支撑位止损 | 更精准 |
-| ATR止损 | 基于波动率设止损 | 进阶 |
-| 追踪止损 | 随价格上涨动态调整 | 保护利润 |
+### Stop Loss Methods
+| Method | Description | Best For |
+|--------|-------------|---------|
+| Fixed percentage | Exit if down 5%–10% | Simple, direct |
+| Technical stop | Exit below support level | More precise |
+| ATR-based | Based on average true range | Advanced |
+| Trailing stop | Dynamically adjusts with rising price | Protecting profits |
 
-### 止损纪律
+### Stop Loss Discipline
 ```
-✅ 务必执行止损
-✅ 设好止损后不要随意下调
-✅ 用"如果止损触发，我损失多少？"来决定仓位
-❌ 不要因为亏损而"死扛"
-❌ 不要抱有"明天就涨回来"的侥幸
-```
-
----
-
-## 6.4 分散投资（Diversification）
-
-### 资产类别分散
-```
-建议的投资组合（保守型）：
-  50%  - 股票（宽基ETF）
-  30%  - 债券
-  10%  - 现金或货币市场
-  10%  - 黄金/大宗商品
-```
-
-```
-建议的投资组合（成长型）：
-  80%  - 股票
-  10%  - 债券
-  10%  - 其他资产
-```
-
-### 股票内部分散
-- **行业分散**：科技、医疗、金融、消费品等
-- **地域分散**：美股、港股、A股
-- **市值分散**：大/中/小盘
-
-**注意：** 过度分散（50支以上）会稀释回报，不如买指数基金
-
----
-
-## 6.5 ETF——最适合新手的工具
-
-ETF（交易所交易基金）= 一篮子股票，低费用
-
-| ETF | 追踪 | 费率 | 特点 |
-|-----|------|------|------|
-| SPY / VOO | S&P 500 | 0.03%-0.09% | 最重要的美股基准 |
-| QQQ | 纳斯达克100 | 0.20% | 科技股集中 |
-| VTI | 美国全市场 | 0.03% | 最广泛分散 |
-| VEA | 发达市场（非美） | 0.05% | 国际分散 |
-| GLD | 黄金 | 0.40% | 避险资产 |
-| TLT | 美国长期国债 | 0.15% | 对冲股市 |
-
-**定投策略（DCA）：**
-> 每月固定金额买入SPY/VOO，不管市场涨跌
-> 长期年化回报：约10%（S&P 500历史均值）
-
----
-
-## 6.6 心理风险管理
-
-### 常见投资心理偏误
-| 偏误 | 说明 | 对策 |
-|------|------|------|
-| 损失厌恶 | 亏损的痛苦是盈利快乐的2倍 | 提前设止损 |
-| 确认偏误 | 只看支持自己观点的信息 | 主动寻找反对意见 |
-| FOMO | 害怕错过，追涨 | 遵守入场条件 |
-| 过度自信 | 几次盈利后膨胀 | 记录交易日志 |
-| 处置效应 | 过早卖出盈利，长期持有亏损 | 用止损+止盈纪律化 |
-
-### 交易日志模板
-```
-日期：
-股票/期权：
-入场理由：
-入场价：
-止损价：
-目标价：
-实际结果：
-复盘总结：
-```
-
-**推荐阅读：**
-- [《思考，快与慢》——丹尼尔·卡尼曼](https://www.amazon.cn/dp/B00QHNMABQ)
-- [《交易者的心理优势》](https://www.amazon.com/Trading-Zone-Confidence-Discipline-Attitude/dp/0735201447)
-
----
-
-## 6.7 R倍数系统（风险回报比）
-
-```
-R = 止损距离（风险）
-目标盈利应该是R的2-3倍
-
-例子：
-  买入价：$100
-  止损价：$95（风险 = $5 = 1R）
-  目标价：$110（回报 = $10 = 2R）
-  → 风险回报比 = 1:2 ✅
-
-长期要求：
-  胜率40% × 平均2R盈利 = 期望值 +0.4R（盈利系统）
-  胜率50% × 平均2R盈利 = 期望值 +0.5R（优秀系统）
+✅ Always execute your stop loss
+✅ Don't lower your stop once it's set
+✅ Use "how much do I lose if stopped out?" to size your position
+❌ Don't hold through losses hoping they'll recover
+❌ Don't tell yourself "it'll bounce back tomorrow"
 ```
 
 ---
 
-## ✅ 本章检验
+## 6.4 Diversification
 
-- [ ] 计算了你的1%风险对应多大仓位
-- [ ] 为每笔交易设置了止损
-- [ ] 了解SPY/VOO的定投策略
-- [ ] 开始记录交易日志
+### Asset Class Diversification
+```
+Suggested Portfolio (Conservative):
+  50%  - Stocks (broad index ETFs)
+  30%  - Bonds
+  10%  - Cash or money market
+  10%  - Gold / commodities
+```
 
-**下一章：** [07-工具平台 →](../07-工具平台/README.md)
+```
+Suggested Portfolio (Growth):
+  80%  - Stocks
+  10%  - Bonds
+  10%  - Other assets
+```
+
+### Within Stocks
+- **Sector diversification:** Tech, healthcare, financials, consumer goods, etc.
+- **Geographic diversification:** U.S., Hong Kong, China
+- **Market cap diversification:** Large / mid / small cap
+
+**Note:** Over-diversification (50+ stocks) dilutes returns — you might as well buy an index fund
+
+---
+
+## 6.5 ETFs — The Best Tool for Beginners
+
+ETF (Exchange-Traded Fund) = a basket of stocks at low cost
+
+| ETF | Tracks | Expense Ratio | Highlights |
+|-----|--------|---------------|-----------|
+| SPY / VOO | S&P 500 | 0.03%–0.09% | Most important U.S. benchmark |
+| QQQ | NASDAQ 100 | 0.20% | Tech-heavy |
+| VTI | Total U.S. market | 0.03% | Broadest diversification |
+| VEA | Developed markets (ex-U.S.) | 0.05% | International exposure |
+| GLD | Gold | 0.40% | Safe haven asset |
+| TLT | U.S. long-term bonds | 0.15% | Stock market hedge |
+
+**Dollar-Cost Averaging (DCA):**
+> Invest a fixed amount in SPY/VOO every month, regardless of market direction.
+> Historical annualized return: ~10% (S&P 500 long-term average)
+
+---
+
+## 6.6 Psychological Risk Management
+
+### Common Investor Biases
+| Bias | Description | Counter-Strategy |
+|------|-------------|-----------------|
+| Loss Aversion | Pain of loss is 2× the pleasure of gain | Set stop loss in advance |
+| Confirmation Bias | Only looking for info that confirms your view | Actively seek opposing arguments |
+| FOMO | Fear of missing out; chasing rallies | Stick to your entry criteria |
+| Overconfidence | Inflated ego after a few wins | Keep a trading journal |
+| Disposition Effect | Sell winners too early, hold losers too long | Use stop loss + take profit rules |
+
+### Trading Journal Template
+```
+Date:
+Stock / Option:
+Entry Rationale:
+Entry Price:
+Stop Loss:
+Target Price:
+Actual Result:
+Lessons Learned:
+```
+
+**Recommended Reading:**
+- [Thinking, Fast and Slow — Daniel Kahneman](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555)
+- [Trading in the Zone — Mark Douglas](https://www.amazon.com/Trading-Zone-Confidence-Discipline-Attitude/dp/0735201447)
+
+---
+
+## 6.7 R-Multiple System (Risk/Reward Ratio)
+
+```
+R = Stop loss distance (your risk)
+Target profit should be 2–3× your R
+
+Example:
+  Entry price: $100
+  Stop price:  $95  (Risk = $5 = 1R)
+  Target:      $110 (Reward = $10 = 2R)
+  → Risk/Reward ratio = 1:2 ✅
+
+Long-term requirements:
+  Win rate 40% × average 2R profit = Expected value +0.4R (profitable system)
+  Win rate 50% × average 2R profit = Expected value +0.5R (excellent system)
+```
+
+---
+
+## ✅ Chapter Checklist
+
+- [ ] Have calculated what 1% risk means for your account size
+- [ ] Set a stop loss for every trade before entering
+- [ ] Understand the DCA strategy using SPY/VOO
+- [ ] Started keeping a trading journal
+
+**Next Chapter:** [07 - Tools & Platforms →](../07-工具平台/README.md)

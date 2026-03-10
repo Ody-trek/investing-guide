@@ -1,69 +1,71 @@
-# 永久投资组合完全操作指南
+**English** | [中文](./README.zh-CN.md)
 
-> 本指南由资深华尔街视角撰写，适合希望构建低风险、长期稳健资产配置的投资者。
+# The Complete Permanent Portfolio Guide
 
----
-
-## 什么是永久投资组合？
-
-**永久投资组合（Permanent Portfolio）** 由美国投资顾问哈里·布朗（Harry Browne）于1981年提出，核心理念是：
-
-> 无论经济处于何种状态，总有一类资产在表现良好。
-
-通过将资金**均等分配**到四类资产，在任何宏观经济环境下都能保持稳定。
+> Written from a seasoned Wall Street perspective, for investors seeking low-risk, long-term stable asset allocation.
 
 ---
 
-## 四大支柱
+## What Is the Permanent Portfolio?
 
-| 资产类别 | 配置比例 | 对应经济状态 |
-|----------|----------|-------------|
-| 股票指数基金 | 25% | 经济繁荣（Prosperity） |
-| 长期国债 | 25% | 通货紧缩（Deflation） |
-| 黄金 | 25% | 通货膨胀（Inflation） |
-| 现金/短期国债 | 25% | 经济衰退（Recession） |
+The **Permanent Portfolio** was proposed by American investment advisor Harry Browne in 1981. Its core philosophy:
 
----
+> No matter what state the economy is in, there is always one asset class performing well.
 
-## 本指南目录
-
-| 章节 | 内容 |
-|------|------|
-| [01-策略原理](./01-策略原理.md) | 四大资产的宏观经济逻辑 |
-| [02-具体标的选择](./02-具体标的选择.md) | 美股/A股/港股对应ETF与产品 |
-| [03-建仓操作流程](./03-建仓操作流程.md) | 从开户到首次建仓的完整步骤 |
-| [04-再平衡策略](./04-再平衡策略.md) | 何时、如何再平衡，税务优化 |
-| [05-历史回测与风险分析](./05-历史回测与风险分析.md) | 真实历史数据与压力测试 |
-| [06-中国投资者适配方案](./06-中国投资者适配方案.md) | 针对中国大陆投资者的本土化方案 |
-| [07-常见误区与FAQ](./07-常见误区与FAQ.md) | 实操中最易犯的错误 |
+By **equally allocating** capital across four asset classes, the portfolio remains stable under any macroeconomic environment.
 
 ---
 
-## 快速起步
+## The Four Pillars
 
-如果你只想快速开始：
-
-1. 准备好投资本金（建议 ≥ 10万元）
-2. 开通券商账户（支持ETF交易）
-3. 按 25/25/25/25 分配资金
-4. 每年检查一次，偏离 ±15% 时再平衡
-5. **长期持有，不要频繁操作**
-
----
-
-## 适合人群
-
-- 不想花大量时间研究市场的投资者
-- 风险承受能力低、注重资产保全的投资者
-- 退休规划或子女教育金等长期目标
-- 希望抵御通胀侵蚀的投资者
-
-## 不适合人群
-
-- 追求高收益（年化 >15%）的投资者
-- 投资期限少于 5 年
-- 无法接受任何单年亏损
+| Asset Class | Allocation | Economic Environment |
+|-------------|-----------|---------------------|
+| Stock Index Funds | 25% | Prosperity |
+| Long-term Treasury Bonds | 25% | Deflation |
+| Gold | 25% | Inflation |
+| Cash / Short-term Treasuries | 25% | Recession |
 
 ---
 
-*本指南仅供教育参考，不构成投资建议。投资有风险，入市需谨慎。*
+## Guide Contents
+
+| Chapter | Content |
+|---------|---------|
+| [01 - Strategy Principles](./01-strategy-principles.md) | The macroeconomic logic behind each of the four assets |
+| [02 - Asset Selection](./02-asset-selection.md) | Specific ETFs and products for U.S., A-share, and HK markets |
+| [03 - Portfolio Building](./03-portfolio-building.md) | Complete step-by-step guide from account opening to first purchase |
+| [04 - Rebalancing Strategy](./04-rebalancing.md) | When and how to rebalance; tax optimization |
+| [05 - Backtesting & Risk Analysis](./05-backtesting.md) | Real historical data and stress tests |
+| [06 - China Investor Adaptation](./06-china-investors.md) | Localized solutions for mainland Chinese investors |
+| [07 - Common Mistakes & FAQ](./07-faq.md) | The most common errors in practice |
+
+---
+
+## Quick Start
+
+If you just want to get started quickly:
+
+1. Prepare your investment capital (recommended ≥ ¥100,000 or equivalent)
+2. Open a brokerage account that supports ETF trading
+3. Allocate funds 25/25/25/25 across the four asset classes
+4. Check once a year; rebalance when any allocation drifts ±15%
+5. **Hold long-term — resist the urge to trade frequently**
+
+---
+
+## Who This Is For
+
+- Investors who don't want to spend a lot of time researching markets
+- Investors with low risk tolerance who prioritize capital preservation
+- Long-term goals such as retirement planning or education funds
+- Investors who want to protect against inflation
+
+## Who This Is NOT For
+
+- Investors seeking high returns (annualized >15%)
+- Investment horizon of less than 5 years
+- Investors who cannot accept any single-year loss
+
+---
+
+*This guide is for educational purposes only and does not constitute investment advice. Investing involves risk — proceed with caution.*

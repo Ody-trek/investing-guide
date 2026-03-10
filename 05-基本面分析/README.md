@@ -1,204 +1,205 @@
-# 05 | 基本面分析
+**English** | [中文](./README.zh-CN.md)
 
-> 技术分析告诉你"何时买"，基本面分析告诉你"买什么"
+# 05 | Fundamental Analysis
 
----
-
-## 5.1 三张核心财务报表
-
-每家上市公司每季度必须公布：
-
-### 损益表（Income Statement）
-> 公司赚了多少钱？
-
-```
-营业收入（Revenue）
-  - 营业成本（Cost of Revenue）
-= 毛利润（Gross Profit）
-  - 运营费用（Operating Expenses）
-= 运营利润（Operating Income / EBIT）
-  - 利息/税费
-= 净利润（Net Income）
-```
-
-### 资产负债表（Balance Sheet）
-> 公司有什么？欠什么？
-
-```
-资产（Assets）= 负债（Liabilities）+ 股东权益（Equity）
-
-流动资产：现金、应收账款、库存
-固定资产：厂房、设备、专利
-流动负债：应付账款、短期债务
-长期负债：长期贷款、债券
-```
-
-### 现金流量表（Cash Flow Statement）
-> 公司真实的现金进出
-
-```
-经营活动现金流（Operating CF）← 最重要
-投资活动现金流（Investing CF）
-融资活动现金流（Financing CF）
-```
-
-**⚠️ 关键原则：** 净利润可以作假，但现金流更难造假
-
-**财报查询：**
-- [SEC EDGAR（美股官方财报）](https://www.sec.gov/cgi-bin/browse-edgar)
-- [Macrotrends财报历史](https://www.macrotrends.net)
-- [巨潮资讯（A股官方）](http://www.cninfo.com.cn)
+> Technical analysis tells you "when to buy." Fundamental analysis tells you "what to buy."
 
 ---
 
-## 5.2 估值方法
+## 5.1 The Three Core Financial Statements
 
-### 方法一：PE估值法（市盈率法）
+Every public company must report each quarter:
 
-```
-合理股价 = 预期EPS × 合理P/E
-
-例：苹果2025年预期EPS = $7.00
-    行业平均P/E = 28x
-    合理股价 = $7.00 × 28 = $196
-```
-
-**P/E参考（美股历史平均）：**
-- 市场整体：15-20x
-- 科技股：25-35x
-- 高成长股：40x+
-- 价值股：10-15x
-
-### 方法二：DCF估值法（折现现金流）
-
-> 公司的价值 = 未来所有现金流的现值之和
+### Income Statement
+> How much money did the company make?
 
 ```
-公司价值 = Σ [未来现金流 / (1+折现率)^年数]
+Revenue
+  − Cost of Revenue
+= Gross Profit
+  − Operating Expenses
+= Operating Income (EBIT)
+  − Interest & Taxes
+= Net Income
 ```
 
-这是最严谨但最复杂的方法。
+### Balance Sheet
+> What does the company own? What does it owe?
 
-**DCF计算器：**
+```
+Assets = Liabilities + Shareholders' Equity
+
+Current Assets: Cash, accounts receivable, inventory
+Fixed Assets: Property, equipment, patents
+Current Liabilities: Accounts payable, short-term debt
+Long-term Liabilities: Long-term loans, bonds
+```
+
+### Cash Flow Statement
+> The company's real cash inflows and outflows
+
+```
+Operating Cash Flow  ← Most important
+Investing Cash Flow
+Financing Cash Flow
+```
+
+**⚠️ Key Principle:** Net income can be manipulated; cash flow is much harder to fake.
+
+**Where to Find Financials:**
+- [SEC EDGAR (official U.S. filings)](https://www.sec.gov/cgi-bin/browse-edgar)
+- [Macrotrends (historical data)](https://www.macrotrends.net)
+- [Stockanalysis.com (clean, free)](https://stockanalysis.com)
+
+---
+
+## 5.2 Valuation Methods
+
+### Method 1: P/E Valuation
+
+```
+Fair Price = Expected EPS × Reasonable P/E
+
+Example: Apple's 2025 expected EPS = $7.00
+         Industry average P/E = 28x
+         Fair price = $7.00 × 28 = $196
+```
+
+**P/E Reference (U.S. market historical averages):**
+- Broad market: 15–20x
+- Tech stocks: 25–35x
+- High-growth stocks: 40x+
+- Value stocks: 10–15x
+
+### Method 2: DCF Valuation (Discounted Cash Flow)
+
+> A company's value = the sum of all future cash flows discounted to today
+
+```
+Company Value = Σ [Future Cash Flow / (1 + Discount Rate)^Year]
+```
+
+This is the most rigorous but complex method.
+
+**DCF Calculators:**
 - [Gurufocus DCF Calculator](https://www.gurufocus.com/term/dcf/AAPL/DCF-Calculator/Apple)
-- [Simply Wall St（可视化）](https://simplywall.st)
+- [Simply Wall St (visual)](https://simplywall.st)
 
-### 方法三：PEG估值法
+### Method 3: PEG Valuation
 
 ```
-PEG = P/E ÷ 盈利增长率
+PEG = P/E ÷ Earnings Growth Rate
 
-PEG < 1 → 被低估
-PEG = 1 → 合理
-PEG > 1 → 可能被高估
+PEG < 1 → Potentially undervalued
+PEG = 1 → Fairly valued
+PEG > 1 → Potentially overvalued
 ```
 
 ---
 
-## 5.3 关键财务健康指标
+## 5.3 Key Financial Health Metrics
 
-### 盈利能力
-| 指标 | 公式 | 好的标准 |
-|------|------|---------|
-| 毛利率 | 毛利/收入 | 科技公司>50% |
-| 净利率 | 净利润/收入 | >10%为佳 |
-| ROE | 净利润/股东权益 | >15% |
-| ROA | 净利润/总资产 | >5% |
-| ROIC | NOPAT/投入资本 | >10% |
+### Profitability
+| Metric | Formula | Good Benchmark |
+|--------|---------|----------------|
+| Gross Margin | Gross Profit / Revenue | Tech companies >50% |
+| Net Margin | Net Income / Revenue | >10% is solid |
+| ROE | Net Income / Shareholders' Equity | >15% |
+| ROA | Net Income / Total Assets | >5% |
+| ROIC | NOPAT / Invested Capital | >10% |
 
-### 偿债能力
-| 指标 | 公式 | 参考 |
-|------|------|------|
-| 流动比率 | 流动资产/流动负债 | >1.5为安全 |
-| 速动比率 | (流动资产-库存)/流动负债 | >1为安全 |
-| 负债权益比 | 总负债/股东权益 | 越低越好 |
-| 利息覆盖率 | EBIT/利息费用 | >3倍为安全 |
+### Solvency
+| Metric | Formula | Reference |
+|--------|---------|-----------|
+| Current Ratio | Current Assets / Current Liabilities | >1.5 is safe |
+| Quick Ratio | (Current Assets − Inventory) / Current Liabilities | >1 is safe |
+| Debt/Equity | Total Debt / Shareholders' Equity | Lower is better |
+| Interest Coverage | EBIT / Interest Expense | >3x is safe |
 
-### 成长性
-| 指标 | 说明 |
-|------|------|
-| 收入增长率 YoY | 同比收入增长 |
-| EPS增长率 | 每股收益增长 |
-| 用户/订阅增长 | 科技公司的核心指标 |
-
----
-
-## 5.4 行业分析框架
-
-### 波特五力模型
-```
-          新进入者威胁
-               ↕
-供应商议价力 ←→ 行业竞争 ←→ 买家议价力
-               ↕
-          替代品威胁
-```
-
-### 护城河（Economic Moat）
-巴菲特最看重的概念——公司的竞争壁垒：
-
-| 护城河类型 | 例子 |
-|-----------|------|
-| 品牌价值 | 苹果、可口可乐 |
-| 网络效应 | 微信、Facebook |
-| 成本优势 | 亚马逊、沃尔玛 |
-| 转换成本 | Salesforce、Adobe |
-| 专利/许可 | 制药公司 |
-| 规模经济 | 谷歌、微软 |
+### Growth
+| Metric | Description |
+|--------|-------------|
+| Revenue Growth YoY | Year-over-year revenue increase |
+| EPS Growth | Earnings per share growth |
+| User/Subscriber Growth | Core metric for tech companies |
 
 ---
 
-## 5.5 财报季日历
+## 5.4 Industry Analysis Framework
 
-美股财报季（Earnings Season）：
-- **Q1财报**：4月-5月
-- **Q2财报**：7月-8月
-- **Q3财报**：10月-11月
-- **Q4/全年财报**：1月-2月
+### Porter's Five Forces
+```
+          Threat of New Entrants
+                  ↕
+Supplier Power ←→ Industry Rivalry ←→ Buyer Power
+                  ↕
+          Threat of Substitutes
+```
 
-**财报日历工具：**
+### Economic Moat
+Buffett's most valued concept — a company's competitive barrier:
+
+| Moat Type | Examples |
+|-----------|---------|
+| Brand value | Apple, Coca-Cola |
+| Network effects | WeChat, Facebook |
+| Cost advantage | Amazon, Walmart |
+| Switching costs | Salesforce, Adobe |
+| Patents / licenses | Pharmaceutical companies |
+| Economies of scale | Google, Microsoft |
+
+---
+
+## 5.5 Earnings Season Calendar
+
+U.S. Earnings Season:
+- **Q1 Earnings:** April–May
+- **Q2 Earnings:** July–August
+- **Q3 Earnings:** October–November
+- **Q4 / Full Year:** January–February
+
+**Earnings Calendar Tools:**
 - [Earnings Whispers](https://www.earningswhispers.com)
 - [Yahoo Finance Earnings Calendar](https://finance.yahoo.com/calendar/earnings)
 
 ---
 
-## 5.6 分析师报告和评级
+## 5.6 Analyst Ratings
 
-| 评级 | 含义 |
-|------|------|
-| Strong Buy / Overweight | 强烈看涨 |
-| Buy | 看涨 |
-| Hold / Neutral | 持有观望 |
-| Sell / Underweight | 看跌 |
-| Strong Sell | 强烈看跌 |
+| Rating | Meaning |
+|--------|---------|
+| Strong Buy / Overweight | Strongly bullish |
+| Buy | Bullish |
+| Hold / Neutral | Wait and see |
+| Sell / Underweight | Bearish |
+| Strong Sell | Strongly bearish |
 
-**免费分析师评级：**
+**Free Analyst Ratings:**
 - [TipRanks](https://www.tipranks.com)
 - [Seeking Alpha](https://seekingalpha.com)
 - [Benzinga](https://www.benzinga.com)
 
 ---
 
-## 5.7 巴菲特的选股标准
+## 5.7 Buffett's Stock Selection Criteria
 
-> "用合理价格买入优秀公司，比用低廉价格买入普通公司要好得多"
+> "It is far better to buy a wonderful company at a fair price than a fair company at a wonderful price."
 
-1. 业务简单，能理解 (Business I Understand)
-2. 持续的竞争优势 (Durable Competitive Advantage)
-3. 能干诚实的管理层 (Capable and Honest Management)
-4. 合理的估值 (Fair Price)
+1. Simple business you can understand
+2. Durable competitive advantage
+3. Capable and honest management
+4. A fair price
 
-**学习巴菲特：**
-- [Berkshire Hathaway股东信（免费）](https://www.berkshirehathaway.com/letters/letters.html)
-- [《穷查理宝典》（芒格思维）](https://www.amazon.cn)
+**Learn from Buffett:**
+- [Berkshire Hathaway Shareholder Letters (free)](https://www.berkshirehathaway.com/letters/letters.html)
 
 ---
 
-## ✅ 本章检验
+## ✅ Chapter Checklist
 
-- [ ] 能读懂一份损益表的基本结构
-- [ ] 知道如何计算P/E
-- [ ] 查看了AAPL最新一季财报
-- [ ] 能解释什么是护城河
+- [ ] Can read the basic structure of an income statement
+- [ ] Know how to calculate P/E ratio
+- [ ] Have looked up AAPL's most recent quarterly earnings
+- [ ] Can explain what an economic moat is
 
-**下一章：** [06-风险管理 →](../06-风险管理/README.md)
+**Next Chapter:** [06 - Risk Management →](../06-风险管理/README.md)

@@ -1,209 +1,211 @@
-# 08 | 实战策略
+**English** | [中文](./README.zh-CN.md)
 
-> 策略不在多，在精。精通一两种策略，比懂十种烂策略强
+# 08 | Trading Strategies
 
----
-
-## 8.1 策略选择矩阵
-
-```
-按资金量：
-  $1,000-$10,000  → 定投指数 + 少量个股
-  $10,000+        → 个股 + 简单期权策略
-  $50,000+        → 完整期权策略组合
-
-按时间投入：
-  每周<1小时      → 定投指数ETF
-  每周1-5小时     → 趋势投资 + Covered Call
-  每天1-2小时     → 主动选股 + 期权策略
-  全职             → 波段交易 + 复杂期权
-```
+> Quality over quantity. Mastering one or two strategies beats knowing ten mediocre ones.
 
 ---
 
-## 策略一：指数定投（最适合小白）
-
-**核心逻辑：** 不试图跑赢市场，随市场一起成长
+## 8.1 Strategy Selection Matrix
 
 ```
-操作方法：
-  每月固定日期，固定金额买入 VOO 或 SPY
-  不管市场涨跌，坚持执行（DCA策略）
+By capital:
+  $1,000–$10,000  → Index DCA + small individual positions
+  $10,000+        → Individual stocks + simple options strategies
+  $50,000+        → Full options strategy portfolio
 
-历史验证：
-  S&P 500 自1950年以来年化收益约10.7%
-  $10,000每年，持续30年 → 约$1,800,000
-```
-
-**适合：** 懒人、长期投资者、投资小白
-
-**学习资源：**
-- [Vanguard定投计算器](https://investor.vanguard.com/tools-and-calculators/dollar-cost-averaging)
-- [JL Collins - 简单财富路径](https://jlcollinsnh.com/stock-series/)
-
----
-
-## 策略二：趋势跟踪（中级）
-
-**核心逻辑：** 顺势而为，不预测转折点
-
-```
-入场条件（同时满足）：
-  ✓ 股价在MA50和MA200之上
-  ✓ MA50 > MA200（黄金交叉或已在之上）
-  ✓ 成交量放大突破阻力位
-  ✓ RSI在40-70之间（不超买）
-
-出场条件（任一触发）：
-  ✗ 跌破止损价
-  ✗ 股价跌破MA50（可选宽松版）
-  ✗ 达到目标价（2R以上）
-```
-
-**推荐学习：**
-- [Minervini趋势模板](https://www.markminervini.com)
-- [William O'Neil CANSLIM方法](https://www.investors.com/ibd-university/)
-
----
-
-## 策略三：Covered Call（持股增收）
-
-**核心逻辑：** 已持有股票，每月卖出虚值Call收取权利金
-
-```
-场景：持有100股AAPL @ $185
-操作：卖出1份 AAPL 30天后到期的 $195 Call，收取 $2.50权利金（$250）
-结果：
-  股价未到$195 → 保留权利金$250，月化1.35%
-  股价超过$195 → 股票以$195卖出，相当于买入价加上权利金的溢价卖出
-
-年化收益（来自权利金）：约12-18%
-```
-
-**风险：** 错过大幅上涨；股价大跌时仍持股
-
-**最佳使用场景：** 横盘震荡市场，持有大盘股
-
----
-
-## 策略四：Cash Secured Put（捡便宜）
-
-**核心逻辑：** 想买某股票但觉得现价略贵，卖Put等价格到位
-
-```
-场景：想以$180买入AAPL（现价$185）
-操作：卖出1份 AAPL $180 Put，30天后到期，收取 $3.00权利金（$300）
-      账户留 $18,000 作为保证金
-结果：
-  到期时AAPL > $180 → 保留$300权利金，继续等待
-  到期时AAPL < $180 → 以$180购入100股（实际成本$177）
-
-年化收益（纯权利金）：约10-15%
-```
-
-**最佳使用场景：** 你确实愿意以该价格持有该股票
-
----
-
-## 策略五：Bull Call Spread（看涨价差）
-
-**核心逻辑：** 用低价Call减去高价Call，降低期权成本
-
-```
-场景：看涨AAPL，但不想付太多权利金
-操作：
-  买入 AAPL $185 Call @ $6.00
-  卖出 AAPL $195 Call @ $2.50
-  净成本 = $3.50（$350/张）
-
-最大盈利：($195-$185) - $3.50 = $6.50（$650/张）
-最大亏损：$3.50（$350/张）
-风险回报比：1:1.86
-
-触发条件：到期时AAPL > $195
-```
-
-**可视化盈亏图：** [Options Profit Calculator](https://www.optionsprofitcalculator.com/calculator/bull-call-spread.html)
-
----
-
-## 策略六：Protective Put（为持仓买保险）
-
-**核心逻辑：** 持有股票+买入Put，限制下行风险
-
-```
-场景：持有100股SPY，担心市场下跌
-操作：买入SPY Put，行权价低于当前价5%-10%
-成本：每年约1-3%的资产（保险成本）
-效果：市场跌超10%时，Put开始盈利对冲损失
+By time available:
+  <1 hr/week      → Index ETF dollar-cost averaging
+  1–5 hrs/week    → Trend investing + Covered Call
+  1–2 hrs/day     → Active stock picking + options strategies
+  Full-time       → Swing trading + complex options
 ```
 
 ---
 
-## 策略七：财报交易（高风险，仅供了解）
+## Strategy 1: Index Dollar-Cost Averaging (Best for Beginners)
 
-**原理：** 财报发布前期权IV升高，发布后IV崩塌（IV Crush）
+**Core Logic:** Don't try to beat the market — grow with it
 
 ```
-激进做法（买期权）：
-  财报前押注方向，财报后可能因IV crush而亏损
-  即使方向对了也可能亏钱！
+How it works:
+  On a fixed date each month, invest a fixed amount in VOO or SPY
+  Stay disciplined regardless of market direction (DCA strategy)
 
-稳健做法（卖期权）：
-  卖出跨式组合（Short Straddle），赌财报后波动不大
-  适合熟悉期权Greeks的用户
+Historical validation:
+  S&P 500 annualized return since 1950: ~10.7%
+  $10,000/year for 30 years → approximately $1,800,000
 ```
 
-**工具：** [Market Chameleon财报统计](https://marketchameleon.com/Reports/Earnings)
+**Best For:** Passive investors, long-term investors, complete beginners
+
+**Learning Resources:**
+- [Vanguard DCA Calculator](https://investor.vanguard.com/tools-and-calculators/dollar-cost-averaging)
+- [JL Collins - Simple Path to Wealth](https://jlcollinsnh.com/stock-series/)
 
 ---
 
-## 8.2 不同市场环境的策略匹配
+## Strategy 2: Trend Following (Intermediate)
 
-| 市场状态 | 特征 | 推荐策略 |
-|----------|------|---------|
-| 强势牛市 | VIX<15，趋势向上 | 趋势跟踪，买Call |
-| 横盘震荡 | VIX15-25 | Covered Call，Cash Secured Put |
-| 高波动 | VIX>25 | 减仓，买保护性Put |
-| 熊市 | 持续下跌 | 现金为王，买Put对冲 |
+**Core Logic:** Go with the trend — don't try to predict turning points
 
-**VIX查询：** [CBOE VIX](https://www.cboe.com/tradable_products/vix/)
+```
+Entry Conditions (ALL must be met):
+  ✓ Price is above both MA50 and MA200
+  ✓ MA50 > MA200 (golden cross or already above)
+  ✓ Volume expands on breakout above resistance
+  ✓ RSI between 40–70 (not overbought)
+
+Exit Conditions (ANY one triggers):
+  ✗ Stop loss is hit
+  ✗ Price breaks below MA50 (optional, looser version)
+  ✗ Target price reached (2R or more)
+```
+
+**Recommended Learning:**
+- [Minervini Trend Template](https://www.markminervini.com)
+- [William O'Neil CANSLIM Method](https://www.investors.com/ibd-university/)
 
 ---
 
-## 8.3 交易系统的构建
+## Strategy 3: Covered Call (Generating Income from Holdings)
 
-一个完整的交易系统包含：
+**Core Logic:** Already holding stock; sell OTM Calls each month to collect premium
 
 ```
-1. 选股标准（What to trade）
-   └── 基本面筛选 + 技术面确认
+Scenario: Hold 100 shares AAPL @ $185
+Action: Sell 1 AAPL Call expiring in 30 days at $195 strike, collect $2.50 premium ($250)
+Outcome:
+  Price stays below $195 → Keep $250 premium (1.35% monthly)
+  Price exceeds $195     → Shares called away at $195 (effectively sold at a premium)
 
-2. 入场条件（When to enter）
-   └── 具体的技术信号
+Annualized premium yield: ~12–18%
+```
 
-3. 仓位大小（How much）
-   └── 1-2%风险规则
+**Risk:** Missing out on a large rally; still holding shares if price drops sharply
 
-4. 止损设置（Where to exit if wrong）
-   └── 技术支撑位 or 固定%
+**Best Market Environment:** Sideways / choppy market, large-cap holdings
 
-5. 目标价（Where to exit if right）
-   └── 2R-3R目标
+---
 
-6. 管理规则（How to manage）
-   └── 何时加仓？何时移动止损？
+## Strategy 4: Cash Secured Put (Buying Stock at a Discount)
 
-7. 复盘记录（How to improve）
-   └── 每周回顾交易日志
+**Core Logic:** Want to buy a stock but think it's slightly overpriced — sell a Put to wait
+
+```
+Scenario: Want to buy AAPL at $180 (current price $185)
+Action: Sell 1 AAPL $180 Put expiring in 30 days, collect $3.00 premium ($300)
+        Keep $18,000 cash in account as collateral
+Outcome:
+  AAPL > $180 at expiration → Keep $300 premium, continue waiting
+  AAPL < $180 at expiration → Buy 100 shares at $180 (effective cost $177)
+
+Annualized premium yield: ~10–15%
+```
+
+**Best Use Case:** When you genuinely want to own the stock at that price
+
+---
+
+## Strategy 5: Bull Call Spread (Bullish Debit Spread)
+
+**Core Logic:** Buy a low-strike Call, sell a high-strike Call to reduce premium cost
+
+```
+Scenario: Bullish on AAPL but don't want to pay full premium
+Action:
+  Buy  AAPL $185 Call @ $6.00
+  Sell AAPL $195 Call @ $2.50
+  Net cost = $3.50 ($350/contract)
+
+Max profit: ($195 − $185) − $3.50 = $6.50 ($650/contract)
+Max loss:   $3.50 ($350/contract)
+Risk/Reward ratio: 1:1.86
+
+Trigger: AAPL > $195 at expiration
+```
+
+**P&L Visualizer:** [Options Profit Calculator](https://www.optionsprofitcalculator.com/calculator/bull-call-spread.html)
+
+---
+
+## Strategy 6: Protective Put (Portfolio Insurance)
+
+**Core Logic:** Hold stock + buy Put to limit downside risk
+
+```
+Scenario: Hold 100 shares SPY, concerned about a market drop
+Action: Buy SPY Put with strike 5%–10% below current price
+Cost: ~1–3% of portfolio value per year (insurance premium)
+Effect: If market drops >10%, Put gains offset losses
 ```
 
 ---
 
-## ✅ 本章检验
+## Strategy 7: Earnings Trading (High Risk — For Reference Only)
 
-- [ ] 选择了适合自己的1-2个策略
-- [ ] 在模拟账户执行了完整的一笔交易（入场到出场）
-- [ ] 记录了完整的交易日志
+**Principle:** Options IV spikes before earnings, then collapses after (IV Crush)
 
-**最后一章：** [09-学习资源 →](../09-学习资源/README.md)
+```
+Aggressive approach (buying options):
+  Bet on direction before earnings — but IV crush can cause losses
+  Even if your direction is right, you can still lose money!
+
+Conservative approach (selling options):
+  Sell a Short Straddle — bet that post-earnings move is small
+  Only suitable for traders familiar with options Greeks
+```
+
+**Tool:** [Market Chameleon Earnings Stats](https://marketchameleon.com/Reports/Earnings)
+
+---
+
+## 8.2 Strategy by Market Environment
+
+| Market Condition | Characteristics | Recommended Strategy |
+|-----------------|-----------------|---------------------|
+| Strong Bull | VIX < 15, uptrend | Trend following, buy Calls |
+| Sideways | VIX 15–25 | Covered Call, Cash Secured Put |
+| High Volatility | VIX > 25 | Reduce exposure, buy Protective Puts |
+| Bear Market | Sustained decline | Cash is king, buy Puts for hedge |
+
+**VIX:** [CBOE VIX](https://www.cboe.com/tradable_products/vix/)
+
+---
+
+## 8.3 Building a Complete Trading System
+
+A complete trading system includes:
+
+```
+1. Stock Selection Criteria (What to trade)
+   └── Fundamental filter + technical confirmation
+
+2. Entry Conditions (When to enter)
+   └── Specific technical signal
+
+3. Position Size (How much)
+   └── 1–2% risk rule
+
+4. Stop Loss (Where to exit if wrong)
+   └── Technical support level or fixed %
+
+5. Target Price (Where to exit if right)
+   └── 2R–3R target
+
+6. Management Rules (How to manage)
+   └── When to add? When to move stop?
+
+7. Review Process (How to improve)
+   └── Weekly review of trading journal
+```
+
+---
+
+## ✅ Chapter Checklist
+
+- [ ] Have chosen 1–2 strategies that fit your profile
+- [ ] Executed a complete trade in a paper account (entry to exit)
+- [ ] Recorded a complete trading journal entry
+
+**Last Chapter:** [09 - Learning Resources →](../09-学习资源/README.md)
