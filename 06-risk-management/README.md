@@ -169,4 +169,4 @@ Long-term requirements:
 - [ ] Understand the DCA strategy using SPY/VOO
 - [ ] Started keeping a trading journal
 
-**Next Chapter:** [07 - Tools & Platforms →](../07-工具平台/README.md)
+**Next Chapter:** [07 - Tools & Platforms →](../07-tools-platforms/README.md)

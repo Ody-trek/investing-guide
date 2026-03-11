@@ -170,4 +170,4 @@ Price down + Volume down → Selling pressure easing, potential stabilization �
 - [ ] Have added MA50 and MACD indicators on TradingView
 - [ ] Have identified support and resistance levels on a real stock
 
-**Next Chapter:** [05 - Fundamental Analysis →](../05-基本面分析/README.md)
+**Next Chapter:** [05 - Fundamental Analysis →](../05-fundamental-analysis/README.md)

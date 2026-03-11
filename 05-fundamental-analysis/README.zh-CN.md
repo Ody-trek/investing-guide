@@ -203,4 +203,4 @@ PEG > 1 → 可能被高估
 - [ ] 查看了AAPL最新一季财报
 - [ ] 能解释什么是护城河
 
-**下一章：** [06-风险管理 →](../06-风险管理/README.zh-CN.md)
+**下一章：** [06-risk-management →](../06-risk-management/README.zh-CN.md)

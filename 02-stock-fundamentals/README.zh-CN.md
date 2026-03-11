@@ -135,4 +135,4 @@ AAPL  $185.20  ▲ +2.15 (+1.17%)
 - [ ] 知道限价单和市价单的区别
 - [ ] 在模拟账户买入了第一支股票
 
-**下一章：** [04-技术分析 →](../04-技术分析/README.zh-CN.md)
+**下一章：** [04-technical-analysis →](../04-technical-analysis/README.zh-CN.md)

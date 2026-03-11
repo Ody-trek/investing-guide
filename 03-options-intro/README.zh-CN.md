@@ -187,4 +187,4 @@
 - [ ] 在模拟账户买过一次Call期权
 - [ ] 能计算一个期权合约的最大亏损
 
-**下一章：** [08-实战策略 →](../08-实战策略/README.zh-CN.md)
+**下一章：** [08-trading-strategies →](../08-trading-strategies/README.zh-CN.md)

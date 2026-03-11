@@ -133,4 +133,4 @@ Tools for finding stocks:
 - [ ] Know the difference between a market order and a limit order
 - [ ] Have bought your first stock in a paper trading account
 
-**Next Chapter:** [04 - Technical Analysis →](../04-技术分析/README.md)
+**Next Chapter:** [04 - Technical Analysis →](../04-technical-analysis/README.md)

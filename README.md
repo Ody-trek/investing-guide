@@ -39,16 +39,16 @@ Advanced: Steady long-term asset allocation
 
 | # | Module | Topics | Suggested Week |
 |---|--------|--------|----------------|
-| 01 | [Market Basics](./01-市场基础/README.md) | Financial markets, exchanges, indices | Week 1 |
-| 02 | [Stock Fundamentals](./02-股票入门/README.md) | What stocks are, how to buy/sell, reading quotes | Week 1 |
-| 03 | [Options Intro](./03-期权入门/README.md) | Call/Put, strike price, expiration, Greeks | Week 4 |
-| 04 | [Technical Analysis](./04-技术分析/README.md) | Candlestick charts, moving averages, RSI, MACD | Week 2 |
-| 05 | [Fundamental Analysis](./05-基本面分析/README.md) | Earnings reports, valuation methods, sector analysis | Week 2 |
-| 06 | [Risk Management](./06-风险管理/README.md) | Position sizing, stop-loss, diversification | Week 3 |
-| 07 | [Tools & Platforms](./07-工具平台/README.md) | Broker selection, screeners, data sources | Week 3 |
-| 08 | [Trading Strategies](./08-实战策略/README.md) | Common strategies, options combinations | Week 4+ |
-| 09 | [Learning Resources](./09-学习资源/README.md) | Book list, courses, podcasts, communities | Ongoing |
-| 10 | [Permanent Portfolio](./10-永久投资组合/README.md) | Complete guide to low-risk long-term allocation | Advanced |
+| 01 | [Market Basics (市场基础)](./01-market-basics/README.md) | Financial markets, exchanges, indices | Week 1 |
+| 02 | [Stock Fundamentals (股票入门)](./02-stock-fundamentals/README.md) | What stocks are, how to buy/sell, reading quotes | Week 1 |
+| 03 | [Options Intro (期权入门)](./03-options-intro/README.md) | Call/Put, strike price, expiration, Greeks | Week 4 |
+| 04 | [Technical Analysis (技术分析)](./04-technical-analysis/README.md) | Candlestick charts, moving averages, RSI, MACD | Week 2 |
+| 05 | [Fundamental Analysis (基本面分析)](./05-fundamental-analysis/README.md) | Earnings reports, valuation methods, sector analysis | Week 2 |
+| 06 | [Risk Management (风险管理)](./06-risk-management/README.md) | Position sizing, stop-loss, diversification | Week 3 |
+| 07 | [Tools & Platforms (工具平台)](./07-tools-platforms/README.md) | Broker selection, screeners, data sources | Week 3 |
+| 08 | [Trading Strategies (实战策略)](./08-trading-strategies/README.md) | Common strategies, options combinations | Week 4+ |
+| 09 | [Learning Resources (学习资源)](./09-learning-resources/README.md) | Book list, courses, podcasts, communities | Ongoing |
+| 10 | [Permanent Portfolio (永久投资组合)](./10-permanent-portfolio/README.md) | Complete guide to low-risk long-term allocation | Advanced |
 
 ---
 
@@ -56,7 +56,7 @@ Advanced: Steady long-term asset allocation
 
 1. **Open a paper trading account** → [Webull Paper Trade](https://www.webull.com/paper-trade) or [Thinkorswim Paper Trading](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/paper-trading.html)
 2. **Read your first stock** → Go to [Yahoo Finance](https://finance.yahoo.com), search `AAPL`, understand every number
-3. **Learn your first concept** → Start with [01-Market Basics](./01-市场基础/README.md)
+3. **Learn your first concept** → Start with [01-Market Basics](./01-market-basics/README.md)
 
 ---
 

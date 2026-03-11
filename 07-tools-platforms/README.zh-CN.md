@@ -131,4 +131,4 @@ Country: USA
 - [ ] 用Finviz筛选了符合标准的股票
 - [ ] 用Options Profit Calculator计算了期权盈亏图
 
-**下一章：** [08-实战策略 →](../08-实战策略/README.zh-CN.md)
+**下一章：** [08-trading-strategies →](../08-trading-strategies/README.zh-CN.md)

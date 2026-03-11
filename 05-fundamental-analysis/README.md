@@ -202,4 +202,4 @@ U.S. Earnings Season:
 - [ ] Have looked up AAPL's most recent quarterly earnings
 - [ ] Can explain what an economic moat is
 
-**Next Chapter:** [06 - Risk Management →](../06-风险管理/README.md)
+**Next Chapter:** [06 - Risk Management →](../06-risk-management/README.md)

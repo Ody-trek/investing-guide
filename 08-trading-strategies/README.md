@@ -208,4 +208,4 @@ A complete trading system includes:
 - [ ] Executed a complete trade in a paper account (entry to exit)
 - [ ] Recorded a complete trading journal entry
 
-**Last Chapter:** [09 - Learning Resources →](../09-学习资源/README.md)
+**Last Chapter:** [09 - Learning Resources →](../09-learning-resources/README.md)

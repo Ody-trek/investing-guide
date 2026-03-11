@@ -126,4 +126,4 @@ Country: USA
 - [ ] Used Finviz to screen for stocks matching your criteria
 - [ ] Used Options Profit Calculator to generate a P&L diagram
 
-**Next Chapter:** [08 - Trading Strategies →](../08-实战策略/README.md)
+**Next Chapter:** [08 - Trading Strategies →](../08-trading-strategies/README.md)

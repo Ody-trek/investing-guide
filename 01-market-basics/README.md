@@ -108,4 +108,4 @@ Complete these exercises before moving on:
 - [ ] Know what time U.S. markets open in your local timezone
 - [ ] Can explain the difference between NYSE and NASDAQ
 
-**Next Chapter:** [02 - Stock Fundamentals →](../02-股票入门/README.md)
+**Next Chapter:** [02 - Stock Fundamentals →](../02-stock-fundamentals/README.md)

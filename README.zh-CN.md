@@ -16,21 +16,21 @@
 
 ```
 第一阶段（第1-2周）：打地基
-    └── 01-市场基础 → 02-股票入门
+    └── 01-market-basics → 02-stock-fundamentals
 
 第二阶段（第3-4周）：学分析
-    └── 04-技术分析 → 05-基本面分析
+    └── 04-technical-analysis → 05-fundamental-analysis
 
 第三阶段（第5-6周）：懂风险
-    └── 06-风险管理 → 07-工具平台
+    └── 06-risk-management → 07-tools-platforms
 
 第四阶段（第7-8周）：学期权
-    └── 03-期权入门 → 08-实战策略
+    └── 03-options-intro → 08-trading-strategies
 
-持续进行：09-学习资源（每天30分钟）
+持续进行：09-learning-resources（每天30分钟）
 
 进阶阶段：稳健长期资产配置
-    └── 10-永久投资组合（低风险、无需择时）
+    └── 10-permanent-portfolio（低风险、无需择时）
 ```
 
 ---
@@ -39,16 +39,16 @@
 
 | # | 模块 | 内容 | 适合阶段 |
 |---|------|------|----------|
-| 01 | [市场基础](./01-市场基础/README.md) | 金融市场概览、交易所、指数 | 第一周 |
-| 02 | [股票入门](./02-股票入门/README.md) | 股票本质、如何买卖、读懂报价 | 第一周 |
-| 03 | [期权入门](./03-期权入门/README.md) | Call/Put、行权价、到期日、希腊字母 | 第四周 |
-| 04 | [技术分析](./04-技术分析/README.md) | K线图、均线、RSI、MACD | 第二周 |
-| 05 | [基本面分析](./05-基本面分析/README.md) | 财报解读、估值方法、行业分析 | 第二周 |
-| 06 | [风险管理](./06-风险管理/README.md) | 仓位管理、止损、分散投资 | 第三周 |
-| 07 | [工具平台](./07-工具平台/README.md) | 券商选择、筛选工具、数据来源 | 第三周 |
-| 08 | [实战策略](./08-实战策略/README.md) | 常用交易策略、期权组合 | 第四周+ |
-| 09 | [学习资源](./09-学习资源/README.md) | 书单、课程、播客、社区 | 持续 |
-| 10 | [永久投资组合](./10-永久投资组合/README.md) | 低风险长期配置完全操作指南 | 进阶 |
+| 01 | [市场基础](./01-market-basics/README.md) | 金融市场概览、交易所、指数 | 第一周 |
+| 02 | [股票入门](./02-stock-fundamentals/README.md) | 股票本质、如何买卖、读懂报价 | 第一周 |
+| 03 | [期权入门](./03-options-intro/README.md) | Call/Put、行权价、到期日、希腊字母 | 第四周 |
+| 04 | [技术分析](./04-technical-analysis/README.md) | K线图、均线、RSI、MACD | 第二周 |
+| 05 | [基本面分析](./05-fundamental-analysis/README.md) | 财报解读、估值方法、行业分析 | 第二周 |
+| 06 | [风险管理](./06-risk-management/README.md) | 仓位管理、止损、分散投资 | 第三周 |
+| 07 | [工具平台](./07-tools-platforms/README.md) | 券商选择、筛选工具、数据来源 | 第三周 |
+| 08 | [实战策略](./08-trading-strategies/README.md) | 常用交易策略、期权组合 | 第四周+ |
+| 09 | [学习资源](./09-learning-resources/README.md) | 书单、课程、播客、社区 | 持续 |
+| 10 | [永久投资组合](./10-permanent-portfolio/README.md) | 低风险长期配置完全操作指南 | 进阶 |
 
 ---
 
@@ -56,7 +56,7 @@
 
 1. **开户模拟账户** → [Webull模拟盘](https://www.webull.com/paper-trade) 或 [Thinkorswim模拟盘](https://www.tdameritrade.com/tools-and-platforms/thinkorswim/paper-trading.html)
 2. **读懂第一支股票** → 去 [Yahoo Finance](https://finance.yahoo.com) 搜索 `AAPL`，看懂每个数字
-3. **学第一个概念** → 从 [01-市场基础](./01-市场基础/README.md) 开始
+3. **学第一个概念** → 从 [01-market-basics](./01-market-basics/README.md) 开始
 
 ---
 

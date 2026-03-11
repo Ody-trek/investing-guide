@@ -169,4 +169,4 @@ R = 止损距离（风险）
 - [ ] 了解SPY/VOO的定投策略
 - [ ] 开始记录交易日志
 
-**下一章：** [07-工具平台 →](../07-工具平台/README.zh-CN.md)
+**下一章：** [07-tools-platforms →](../07-tools-platforms/README.zh-CN.md)

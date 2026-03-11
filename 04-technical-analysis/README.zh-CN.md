@@ -171,4 +171,4 @@ MACD线 穿越 信号线（向下）→ 卖出信号
 - [ ] 在TradingView上添加了MA50和MACD指标
 - [ ] 找到一支股票的支撑和阻力位
 
-**下一章：** [05-基本面分析 →](../05-基本面分析/README.zh-CN.md)
+**下一章：** [05-fundamental-analysis →](../05-fundamental-analysis/README.zh-CN.md)

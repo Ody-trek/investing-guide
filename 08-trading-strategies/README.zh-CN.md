@@ -208,4 +208,4 @@
 - [ ] 在模拟账户执行了完整的一笔交易（入场到出场）
 - [ ] 记录了完整的交易日志
 
-**最后一章：** [09-学习资源 →](../09-学习资源/README.zh-CN.md)
+**最后一章：** [09-learning-resources →](../09-learning-resources/README.zh-CN.md)

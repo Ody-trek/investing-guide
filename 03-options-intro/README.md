@@ -189,4 +189,4 @@ Reward: Collect premium; if assigned, you buy at your target price
 - [ ] Have bought a Call option in a paper trading account
 - [ ] Can calculate the maximum loss on an options contract
 
-**Next Chapter:** [08 - Trading Strategies →](../08-实战策略/README.md)
+**Next Chapter:** [08 - Trading Strategies →](../08-trading-strategies/README.md)

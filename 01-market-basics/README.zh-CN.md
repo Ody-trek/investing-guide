@@ -109,4 +109,4 @@
 - [ ] 知道美股开盘对应北京几点
 - [ ] 能区分NYSE和NASDAQ的区别
 
-**下一章：** [02-股票入门 →](../02-股票入门/README.zh-CN.md)
+**下一章：** [02-stock-fundamentals →](../02-stock-fundamentals/README.zh-CN.md)
